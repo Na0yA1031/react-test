@@ -1,9 +1,7 @@
 import React from "react";
 
-const ColorfulMessage = (props) => {
-  console.log(props);
+export const ColorfulMessage = (props) => {
   const { color, children } = props;
-  console.log(color, children);
   // CSSをオブジェクトとして変数で定義することも可能
 
   const contentStyle = {
@@ -16,5 +14,3 @@ const ColorfulMessage = (props) => {
     </>
   );
 };
-
-export default ColorfulMessage;
